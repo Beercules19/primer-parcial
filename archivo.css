@@ -35,6 +35,23 @@ article section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: space-between;
+}
+
+#product {
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 2em;
+}
+
+#details {
+	padding-left: 3em;
+}
+
+#priceProduct {
+	display: flex;
+	justify-content: space-around;
 }
 
 footer {
